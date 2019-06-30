@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Serafin Rzewucki</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- wiev port that fixes width to the device specifications -->
+  <meta name="description" content="Study project">
+  <meta name="author" content="Serafin Rzewucki">
+
+  <link rel="stylesheet" href="assets/style/style.css"> <!-- link to the css file  -->
+
+</head>
+
+<body>
+  <header class="header container"> <!-- class element that allows to set different atributes in the css file every following element can be treated as seperate column in the grid-->
+    <a class="header__logo" href="index.html">Logo</a>
+    <nav class="header__menu-mobile listenMenu">
+      <a class="header__item-mobile" href="index.html">Main</a>
+      <a class="header__item-mobile" href="about.html">About us</a>
+      <a class="header__item-mobile" href="categories.html">categories</a>
+      <a class="header__item-mobile" href="contact.html">categories</a>
+    </nav>  
+    <nav class="header__menu-desktop">
+      <a class="header__item-desktop" href="index.html">Main</a>
+      <a class="header__item-desktop" href="about.html">About us</a>
+      <a class="header__item-desktop" href="categories.html">Categories</a>
+      <a class="header__item-desktop" href="contact.html">Contact</a>
+    </nav> 
+    <button class="header__button listenButton" onclick="menuShow()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+  </header>
+  <main class="main">
+    <h1 class="main__title">Welcome to my page .</h1>
+  </main>
+  <script src="assets/js/scripts.js"></script> <!-- link to the java script file for menu button -->
+</body>
+</html>
